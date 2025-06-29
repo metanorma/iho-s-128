@@ -1,0 +1,28 @@
+
+[.preface]
+== Document History
+
+Changes to this Product Specification are coordinated by the IHO Nautical
+Information Provision Working Group (NIPWG). New editions will be
+made available via the IHO web site. Maintenance of the Product Specification
+shall conform to IHO Technical Resolution 2/2007 (as amended).
+
+[cols="4",options="unnumbered"]
+|===
+h| Version Number h| Date h| Approved By h| Purpose
+| 0.0.1 | 28 Dec 2018 | KHOA           | First Draft
+| 0.7.5 | 20 Nov 2019 | KHOA           | Working Draft
+| 1.0.0 | 11 Mar 2022 | KHOA           | Release 1.0.0
+| 1.0.0 | May 2022    | HSSC           | Initial published version for evaluation and testing.
+| 1.1.0 | Oct 2023    | KHOA           | Updated to align with S-100 Edition 5.0.0
+| 1.2.0 | Feb 2024    | KHOA           | Revised Data Modeling
+| 2.0.0 | Mar 2024    | KHOA           | Updated to align with S-100 Edition 5.2.0 and Applied feedback from NIPWG
+| 2.0.0 | July 2024   | KHOA           | Applied feedback from NIPWG
+| 2.0.0 | Mar 2025    | IHO CL xx/2025 | First operational version of S-128
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
+|===
