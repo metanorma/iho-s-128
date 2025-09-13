@@ -30,7 +30,7 @@ Portrayal Catalogues can be included in the Exchange Set in support
 of the datasets.
 
 More detailed information for the classes is depicted in <<fig_12-2>>
-and details about the metadata classes are provided in <<sec_12.2;to!sec_12.5>>.
+and details about the metadata classes are provided in clauses 12.2 - 12.5.
 
 [[fig_12-1]]
 .Relationship between Exchange Catalogue, discovery metadata, and dataset (from S-100 Edition 5.2.0, Figure 17-6)
