@@ -21,7 +21,7 @@ its attributes, attribute values, and relationships in the data product.
 The class comprising the S-128 Application Schema is the S-128 Domain
 model containing the features and information types that model the
 CNP application domain specifically. Geographic features in all three
-packages use the spatial types from S-100 Part 7, which are imported
+packages use the spatial types from <<S_100,part=7>>, which are imported
 as-is into the S-128 spatial type package and therefore can be used
 as types for S-128 spatial attributes. The spatial types package also
 contains definitions of 'union types' (combinations of the S-100 spatial
@@ -49,8 +49,8 @@ The following conventions are used in the UML diagrams depicting the
 Application Schema:
 
 * Standard UML conventions for classes, associations, inheritance,
-roles, and multiplicities apply. These conventions are described in
-Part 1 of S-100.
+roles, and multiplicities apply. These conventions are described
+in <<S_100,part=1>>.
 * _Italic_ font for a class name indicates an abstract class.
 * Feature classes are depicted with green background; the dark shade
 for abstract feature classes and the light shade for ordinary (non-abstract)
@@ -222,13 +222,13 @@ DD Day integer between 01 and 28, 29, 30, or 31 (inclusive), consistent
 with year and month values if these are specified
 
 This type can be used to encode recurring instants
-(see S-100 Part 3, clause 3-8).
+(see <<S_100,part=3,clause=3-8>>).
 
 [example]
 The appropriate XML Schema type should be used: --12-17 representing
 17 December of any year (conforming to the XML type gMonthDay)
 
-S-100 Part 10b provides further details about encoding in GML datasets
+<<S_100,part=10b>> provides further details about encoding in GML datasets
 
 | Time
 a| A time is given by an hour, minute and second. Character encoding
@@ -277,7 +277,7 @@ component of an object as described in S-100 and <<ISO_19107_2019>>.
 This Product Specification uses type of geometry: GM_Surface. 
 
 CNPs are encoded as vector entities which conform to S-100 geometry
-configuration level 3a (S-100 Part 7). S-128 further constrains Level
+configuration level 3a (<<S_100,part=7>>). S-128 further constrains Level
 3a with the following: The distance between two consecutive control
 points must not be less than stem:[0.3 "unitsml(mm)"] at a permitted
 display scale.
