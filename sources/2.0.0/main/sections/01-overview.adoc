@@ -386,13 +386,13 @@ based nautical products and e- Navigation service.
 
 *Description:*:: Global coverage of maritime areas.
 
-*East Bounding Longitude:*:: 180°
+*East Bounding Longitude:*:: stem:[180 "unitsml(deg)"]
 
-*West Bounding Longitude:*:: -180°
+*West Bounding Longitude:*:: stem:[-180 "unitsml(deg)"]
 
-*North Bounding Latitude:*:: 90°
+*North Bounding Latitude:*:: stem:[90 "unitsml(deg)"]
 
-*South Bounding Latitude:*:: -90°
+*South Bounding Latitude:*:: stem:[-90 "unitsml(deg)"]
 
 *Purpose:*:: Describing status of nautical products, and to allow
 the producer to exchange catalogue of nautical products with interested
