@@ -43,7 +43,7 @@ This includes their issue date, status, producing agency, and coverage.
 
 * [[[ISO_19111_2007,ISO 19111:2007]]]_Geographic information - Spatial referencing by coordinates_.
 
-* [[[ISO_19115_1_2018,ISO 19115-1:2018]]] _Geographic information -- Metadata, Amended by Amendment 1_.
+* [[[ISO_19115_1_2018,nofetch(ISO 19115-1:2018)]]] _Geographic information -- Metadata, Amended by Amendment 1_.
 
 * [[[ISO_19115_2_2019,ISO 19115-2:2019]]] _Geographic information - Metadata: Extensions for imagery and gridded data_.
 
@@ -51,11 +51,11 @@ This includes their issue date, status, producing agency, and coverage.
 
 * [[[ISO_19123_2005,ISO 19123:2005]]] _Geographic information - Schema for coverage geometry and functions._
 
-* [[[ISO_19129_2009,ISO 19129:2009]]] _Geographic information - Imagery gridded and coverage data framework_.
+* [[[ISO_19129_2009,ISO/TS 19129:2009]]] _Geographic information - Imagery gridded and coverage data framework_.
 
-* [[[ISO_19131_2008,ISO 19131:2008]]] _Geographic information - Data product specifications_.
+* [[[ISO_19131_2008,ISO 19131]]] _Geographic information - Data product specifications_.
 
-* [[[ISO_19136_2020,ISO 19136:2020]]] _Geographic Information -- Geography Markup Language_.
+* [[[ISO_19136_2020,ISO 19136-1:2020]]] _Geographic Information -- Geography Markup Language_.
 
 * [[[ISO_19136_2_2015,ISO 19136-2:2015]]] _Geographic Information -- Geography Markup Language_.
 
@@ -81,15 +81,15 @@ This includes their issue date, status, producing agency, and coverage.
 
 * [[[ISO_3166_2,hidden(ISO 3166-2)]]]
 
-* [[[ISO_10646_1,hidden(ISO 10646-1)]]]
+* [[[ISO_10646_1,hidden(ISO/IEC 10646-1)]]]
 
 * [[[ISO_8211,hidden(ISO 8211)]]]
 
-* [[[ISO_15444,hidden(ISO 15444)]]]
+* [[[ISO_15444,hidden(ISO/IEC 15444 (all parts))]]]
 
-* [[[ISO_19005,hidden(ISO 19005)]]]
+* [[[ISO_19005,hidden(ISO 19005 (all parts))]]]
 
-* [[[ISO_32000,hidden(ISO 32000)]]]
+* [[[ISO_32000,hidden(ISO 32000 (all parts))]]]
 
 * [[[RFC_3986,hidden(RFC 3986)]]]
 

@@ -19,7 +19,7 @@ shall conform to IHO Technical Resolution 2/2007 (as amended).
     value: 2022-03-11
   edition: "1.0.0"
   contributor:
-    - organization:
+  - organization:
       name: International Hydrographic Organization
       subdivision: Nautical Information Provision Working Group
       abbreviation: NIPWG
@@ -41,7 +41,7 @@ shall conform to IHO Technical Resolution 2/2007 (as amended).
     value: 2023-10
   edition: "1.1.0"
   contributor:
-    - organization:
+  - organization:
       name: Korea Hydrographic and Oceanographic Agency
       abbreviation: KHOA
   amend:
@@ -62,7 +62,7 @@ shall conform to IHO Technical Resolution 2/2007 (as amended).
     value: 2024-03
   edition: "2.0.0"
   contributor:
-    - organization:
+  - organization:
       name: Korea Hydrographic and Oceanographic Agency
       abbreviation: KHOA
   amend:
@@ -72,7 +72,7 @@ shall conform to IHO Technical Resolution 2/2007 (as amended).
     value: 2024-07
   edition: "2.0.0"
   contributor:
-    - organization:
+  - organization:
       name: Korea Hydrographic and Oceanographic Agency
       abbreviation: KHOA
   amend:
