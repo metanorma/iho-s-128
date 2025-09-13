@@ -6,7 +6,7 @@ S-128 portrayal is covered by the portrayal model as defined in S-100.
 The Portrayal Catalogue defines symbology and the portrayal rules
 for each feature/attribute combination contained in the Feature Catalogue.
 
-S-128 uses the portrayal process defined in S-100 Part 9.
+S-128 uses the portrayal process defined in <<S_100,part=9>>.
 
 [[sec_9.1]]
 === Portrayal Catalogue

@@ -6,7 +6,7 @@
 === Introduction
 
 The CNP metadata specification conforms to the S-100 metadata specification
-in Part 4a, which is a profile of the <<ISO_19115_1_2018>> Standard.
+in <<S_100,part=4a>>, which is a profile of the <<ISO_19115_1_2018>> Standard.
 These documents provide a structure for describing digital geographic
 data and define metadata elements, a common set of metadata terminology,
 definitions, and extension procedures.
@@ -30,7 +30,7 @@ Portrayal Catalogues can be included in the Exchange Set in support
 of the datasets.
 
 More detailed information for the classes is depicted in <<fig_12-2>>
-and details about the metadata classes are provided in clauses 12.2 - 12.5.
+and details about the metadata classes are provided in <<sec_12.2;to!sec_12.5>>.
 
 [[fig_12-1]]
 .Relationship between Exchange Catalogue, discovery metadata, and dataset (from S-100 Edition 5.2.0, Figure 17-6)
@@ -55,7 +55,7 @@ language. If this is the case it is noted in the Remarks column.
 In the following clauses, wherever S-128 makes an optional S-100 metadata
 attribute mandatory (that is, restricts multiplicity from 0.. to 1..),
 the restricted multiplicity is shown in place of the multiplicity
-given in S-100 Part 17. When this is done, the Remarks column contains
+given in <<S_100,part=17>>. When this is done, the Remarks column contains
 a note about the restriction. Further, enumerations in the Figure
 and the following clauses show only the values allowed in S-128 Exchange
 Catalogues.
@@ -111,7 +111,7 @@ in the Exchange Catalogue
 | Signed public key certificates referred to by digital signatures
 in the Exchange Set
 | 0..* | S100_SE_CertificateContainerType
-| Content defined in S-100 Part 15. All certificates used, except
+| Content defined in <<S_100,part=15>>. All certificates used, except
 the SA root certificate (installed separately by the implementing
 system) shall be included
 
@@ -166,7 +166,7 @@ h| Role Name h| Name h| Description h| Mult h| Type h| Remarks
 |===
 h| Name h| Description h| Mult h| Type h| Remarks
 | S100_DatasetDiscoveryMetadata | Metadata about the individual datasets in the Exchange Catalogue | - | - | -
-| fileName | Dataset file name | 1 | URI | See Part 1, clause 1-4.6
+| fileName | Dataset file name | 1 | URI | See <<S_100,part=1,clause=1-4.6>>
 | description | Short description giving the area or location covered by the dataset | 0..1 | CharacterString | For example: A harbour or port name, between two named locations etc
 | datasetID | Dataset ID expressed as a Maritime Resource Name | 0..1 | URN | The URN must be an MRN
 | compressionFlag | Indicates if the resource is compressed | 1 | Boolean | *_True_* indicates a compressed dataset resource *_False_* indicates an uncompressed dataset resource
@@ -174,12 +174,12 @@ h| Name h| Description h| Mult h| Type h| Remarks
 
 | protectionScheme | Specification or method used for data protection | 0..1 | S100_ProtectionScheme |
 
-| digitalSignatureReference | Specifies the algorithm used to compute digitalSignatureValue | 1 | S100_SE_DigitalSignatureReference (see S-100 Part 15) |
+| digitalSignatureReference | Specifies the algorithm used to compute digitalSignatureValue | 1 | S100_SE_DigitalSignatureReference (see <<S_100,part=15>>) |
 
 | digitalSignatureValue | Value derived from the digital signature | 1..*
 | S100_SE_DigitalSignature +
-(see S-100 Part 15)
-| The value resulting from application of digitalSignatureReference Implemented as the digital signature format specified in S-100 Part 15
+(see <<S_100,part=15>>)
+| The value resulting from application of digitalSignatureReference Implemented as the digital signature format specified in <<S_100,part=15>>
 
 | copyright | Indicates if the dataset is copyrighted | 1 | Boolean
 | *_True_* indicates the resource is copyrighted *_False_* Indicates
@@ -237,7 +237,7 @@ start and end of the temporal extent is known
 
 | productSpecification | The Product Specification used to create this dataset | 1 | S100_ProductSpecification |
 
-| producingAgency | Agency responsible for producing the data | 1 | CI_Responsibility>CI_Organisation | See S-100 Part 17, Table 17-3
+| producingAgency | Agency responsible for producing the data | 1 | CI_Responsibility>CI_Organisation | See <<S_100,part=17,table=17-3>>
 
 | producerCode | The official IHO Producer Code from the IHO GI Registry, Producer Code Register | 0..1 | CharacterString |
 
@@ -268,7 +268,7 @@ of those updates
 | 0..1 | MD_MaintenanceInformation
 | S-100 restricts the multiplicity to 0..1 and adds specific restrictions
 on the ISO19115 structure and content. See clause MD_MaintenanceInformation
-later in this PartFormat: PnYnMnDTnHnMnS (XML built in type for <<ISO_8601>> duration). See clause 17-4.9
+later in this PartFormat: PnYnMnDTnHnMnS (XML built in type for <<ISO_8601>> duration). See <<S_100,clause=17-4.9>>
 
 |===
 
@@ -373,9 +373,9 @@ cancellation or supersession of the dataset
 h| Item h| Name h| Description h| Code h| Remarks
 
 | Enumeration | S100_DataFormat | The encoding format                                  | - | -
-| Value       | ISO/IEC 8211    | The ISO/IEC 8211 data format as defined in Part 10a  | 1 | -
-| Value       | GML             | The GML data format as defined in Part 10b           | 2 | -
-| Value       | HDF5            | The HDF5 data format as defined in Part 10c          | 3 | -
+| Value       | ISO/IEC 8211    | The ISO/IEC 8211 data format as defined in <<S_100,part=10a>>  | 1 | -
+| Value       | GML             | The GML data format as defined in <<S_100,part=10b>>           | 2 | -
+| Value       | HDF5            | The HDF5 data format as defined in <<S_100,part=10c>>          | 3 | -
 | Value       | undefined       | The encoding is defined in the Product Specification | 100
 | Use Product Specification specific encoding means the data product
 and Product Specification is not intended for an IHO S-100 compliant
@@ -420,7 +420,7 @@ Registry
 
 | Attribute | compliancyCategory
 | The level of compliance of the Product Specification to S-100
-| 0..1 | S100_CompliancyCategory | See S-100 Part 4a, clause 4a-5.5
+| 0..1 | S100_CompliancyCategory | See <<S_100,part=4a,clause=4a-5.5>>
 
 |===
 
@@ -447,7 +447,7 @@ h| Item h| Name h| Description h| Code h| Remarks
 h| Item h| Name h| Description h| Code h| Remarks
 
 | Enumeration | S100_ProtectionScheme | Data protection schemes | - | -
-| Value       | S100p15               | IHO S-100 Part 15       | 1 | See S-100 Part 15
+| Value       | S100p15               | IHO S-100 Part 15       | 1 | See <<S_100,part=15>>
 
 |===
 
@@ -459,7 +459,7 @@ h| Item h| Name h| Description h| Code h| Remarks
 h| Name h| Description h| Mult h| Type h| Remarks
 
 | S100_SupportFileDiscoveryMetadata | Metadata about the individual support files in the exchange catalogue | - | -   | -
-| fileName | Name of the support file | 1 | URI | See S-100 Part 1, clause 1-4.6
+| fileName | Name of the support file | 1 | URI | See <<S_100,part=1,clause=1-4.6>>
 
 | revisionStatus | The purpose for which the support file has been issued | 1 | S100_SuppoirtFileRevisionStatus | For example new, replacement, etc
 
@@ -477,8 +477,8 @@ h| Name h| Description h| Mult h| Type h| Remarks
 | comment | Optional comment | 0..1 | CharacterString |
 
 | compressionFlag | Indicates if the resource is compressed | 1 | Boolean | _True_ indicates a compressed resource _False_ indicates an uncompressed resource
-| digitalSignatureReference | Specifies the algorithm used to compute digitalSignatureValue | 1 | S100_SE_DigitalSignatureReference (see S-100 Part 15) | Reference to the appropriate digital signature algorithm
-| digitalSignatureValue | Value derived from the digital signature | 1..* | S100_DigitalSignature (see S-100 Part 15) | The value resulting from application of digitalSignatureReferenceImplemented as the digital signature format specified in S-100 Part 15
+| digitalSignatureReference | Specifies the algorithm used to compute digitalSignatureValue | 1 | S100_SE_DigitalSignatureReference (see <<S_100,part=15>>) | Reference to the appropriate digital signature algorithm
+| digitalSignatureValue | Value derived from the digital signature | 1..* | S100_DigitalSignature (see <<S_100,part=15>>) | The value resulting from application of digitalSignatureReferenceImplemented as the digital signature format specified in <<S_100,part=15>>
 
 | defaultLocale | Default language and character set used in the support file | 0..1 | PT_Locale
 | In absence of defaultLocale the language is English in UTF-8 +
@@ -584,13 +584,13 @@ Default is new edition
 
 | digitalSignatureReference
 | Specifies the algorithm used to compute digitalSignatureValue
-| 1 | S100_SE_DigitalSignatureReference (see S-100 Part 15)
+| 1 | S100_SE_DigitalSignatureReference (see <<S_100,part=15>>)
 | Reference to the appropriate digital signature algorithm
 
 | digitalSignatureValue | Value derived from the digital signature
-| 1..* | S100_SE_DigitalSignature (see S-100 Part 15)
+| 1..* | S100_SE_DigitalSignature (see <<S_100,part=15>>)
 | The value resulting from application of digitalSignatureReferenceImplemented
-as the digital signature format specified in S-100 Part 15
+as the digital signature format specified in <<S_100,part=15>>
 
 | compressionFlag | Indicates if the resource is compressed | 1 | Boolean | _True_ indicates a compressed resource _False_ indicates an uncompressed resource
 | defaultLocale | Default language and character set used in the Catalogue | 0..1 | PT_Locale | In absence of defaultLocale the language is English in UTF-8

@@ -33,7 +33,7 @@ This includes their issue date, status, producing agency, and coverage.
 
 * [[[ISO_TS_19103_2005,ISO/TS 19103:2005]]] _Geographic Information -- Conceptual schema language_.
 
-* [[[ISO_19106_2004,ISO19106:2004]]] _Geographic Information -- Profiles_.
+* [[[ISO_19106_2004,ISO 19106:2004]]] _Geographic Information -- Profiles_.
 
 * [[[ISO_19107_2019,ISO 19107:2019]]] _Geographic Information -- Spatial schema_.
 
@@ -94,6 +94,11 @@ This includes their issue date, status, producing agency, and coverage.
 * [[[RFC_3986,hidden(RFC 3986)]]]
 
 * [[[RFC_2141,hidden(RFC 2141)]]]
+
+* [[[S128AnnexA,dropid(repo:(current-metanorma-collection/IHO S-128 Annex A))]]],
+span:title[S-128 -- Annex A: Data Classification and Encoding Guide],
+span:edition[2.0.0],
+span:organization[International Hydrographic Organization]
 
 [[sec_1.3]]
 === Terms, definitions and abbreviations
@@ -444,7 +449,7 @@ or clarification.
 [[sec_1.6.2]]
 ==== New Edition
 
-New Editionsof S-128 introduce significant changes. _New Editions_
+New Editions of S-128 introduce significant changes. _New Editions_
 enable new concepts, such as the ability to support new functions
 or applications, or the introduction of new constructs or data types.
 _New Editions_ are likely to have a significant impact on either existing

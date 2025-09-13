@@ -68,7 +68,7 @@ in meters.
 === Temporal reference system
 
 Time is measured by reference to Calendar dates and Clock time in
-accordance with <<ISO_19108_2002>> Temporal Schema, clause 5.4.4.
+accordance with <<ISO_19108_2002,clause=5.4.4>>.
 
 [[sec_5.6]]
 === Coverage of nautical products data and scale
