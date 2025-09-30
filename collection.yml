@@ -16,7 +16,7 @@ bibdata:
 
   docid:
     type: iho
-    id: IHO S-128
+    id: IHO S-128 (all parts)
 
   edition: "2.0.0"
 
@@ -36,6 +36,7 @@ format:
   - presentation
   - doc
   - pdf
+  - rxl
 
 manifest:
   docref:
